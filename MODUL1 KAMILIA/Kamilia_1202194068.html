@@ -1,24 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
-</head>
-
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.scss">
+        <title>Document</title>
+    </head>
+    
+    <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="#">
                 <img src="logo-ead.png" width="100px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -43,10 +43,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/AwMeQJ_u73I"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe></center>
+                        <center>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AwMeQJ_u73I"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                        </center>
                     </div>
                     <div class="col-12">
                         <h2 class="text-center">Klinik EAD</h2>
@@ -83,11 +85,11 @@
         <div class="jumbotron">
             <div class="container">
                 <h2 class="text-center text-title">Jenis Test</h2>
-                <div class="row">
+                <div class="col-12">
                     <div class="col-4">
                         <div class="card" style="width: 18rem;">
                             <img src="https://i1.wp.com/rdk.fidkom.uinjkt.ac.id/wp-content/uploads/2020/12/Sitta_18-Des-2020_Mulai-Jumat-18-Desember-2020-keluar-masuk-DKI-Jakarta-harus-melalui-Rapid-Test-Antigen_sumber-foto-dari-suara.com_berita-1.jpeg?fit=960%2C520"
-                                height="250px" class="card-img-top">
+                                 height="250px" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Tes Antigen</h5>
                                 <p class="card-text">Rapid test antigen untuk virus Corona dilakukan dengan mengambil
@@ -100,7 +102,7 @@
                     <div class="col-4">
                         <div class="card" style="width: 18rem;">
                             <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1625808784/attached_image/apakah-pcr-bisa-membedakan-jenis-varian-virus-corona.jpg"
-                                height="250px" class="card-img-top">
+                                 height="250px" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Tes PCR</h5>
                                 <p class="card-text">Tes PCR adalah jenis pemeriksaan untuk mendeteksi pola genetik (DNA
@@ -113,7 +115,7 @@
                     <div class="col-4">
                         <div class="card" style="width: 18rem;">
                             <img src="https://asset.kompas.com/crops/t8hgnlOpKSWtUvyETW4BVtgfJ7M=/114x0:959x563/750x500/data/photo/2020/05/14/5ebd0698c8a51.jpg"
-                                height="250px" class="card-img-top">
+                                 height="250px" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Tes Antibodi</h5>
                                 <p class="card-text">Jenis rapid test untuk COVID-19 ini merupakan jenis rapid test yang
@@ -137,7 +139,7 @@
                     <label for="staticName" class="col-4 col-form-label">Nama</label>
                     <div class="col-8">
                         <input type="text" class="form-control" id="name" name="name"
-                            value="Kamilia Nurun Nadhifah">
+                               value="Kamilia Nurun Nadhifah">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -149,8 +151,8 @@
                 <div class="form-group row">
                     <label for="staticRiwayat" class="col-4 col-form-label">Riwayat Penyakit</label>
                     <div class="col-8">
-                        <textarea type="text" class="form-control" id="riwayat" name="riwayat"
-                            value="tuliskan riwayat penyakit anda..."></textarea>
+                            <textarea type="text" class="form-control" id="riwayat" name="riwayat"
+                                      value="tuliskan riwayat penyakit anda..."></textarea>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -177,8 +179,8 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Kirim</button>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
         </div>
     </section>
@@ -192,8 +194,8 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
-</body>
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    </body>
 
-</html>
+    </html>
