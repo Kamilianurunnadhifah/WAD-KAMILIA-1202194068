@@ -9,7 +9,7 @@
 
   <title>Modul2 - Kamilia_1202194068</title>
 </head>
-
+<!-- merubah sedikit disuruh bang ardan -->
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
     <div class="container-fluid">
