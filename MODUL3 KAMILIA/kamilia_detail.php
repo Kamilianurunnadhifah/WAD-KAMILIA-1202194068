@@ -164,7 +164,7 @@ if ((isset($_GET['aksi'])) && (isset($_GET['data']))) {
         </div>
     </div>
     <?php
-    }
+        }
     ?>
 </section>
 <footer class="d-flex flex-column align-items-center pt-5 bottom-0 pb-5 mt-5 bg-light">
