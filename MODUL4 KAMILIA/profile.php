@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost:3307";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "wad_modul4";
@@ -10,10 +10,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$uid = $_SESSION['id'];
+$uid = $_SESSION['uid'];
 $sql = "SELECT * FROM users where id='$uid'";
 $result = $conn->query($sql);
-$email = 'x';
+$email = 'kamilianadhifah8@gmail.com';
 $nama = '';
 $no_hp = '';
 
