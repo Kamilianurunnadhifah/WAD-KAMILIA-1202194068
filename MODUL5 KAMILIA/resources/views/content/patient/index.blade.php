@@ -1,5 +1,3 @@
-@extends('layout.patient')
-
 @section('content')
 
 <section class="container">
@@ -30,8 +28,8 @@
                             <td>
                             @foreach ($vaccine as $key=>$vaccines)
                                 @if($vaccines->id== $patients->vaccine_id)
-                                    {{ $vaccines->name }}, 
-                                @endif 
+                                    {{ $vaccines->name }},
+                                @endif
                             @endforeach
                             </td>
                             <td>{{ $patients->name }}</td>

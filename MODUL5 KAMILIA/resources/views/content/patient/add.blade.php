@@ -3,7 +3,6 @@
 @section('content')
 <section class="container mb-4">
         <form class="form-horizontal" enctype="multipart/form-data" method="post" action="/patient">
-            @csrf
             <p class="text-center fw-bold">Input Patient</p>
             <div class="mb-3">
                 <label class="form-label">Vaccine Id</label>
@@ -29,7 +28,7 @@
                     <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
                 <input type="text" class="form-control" name="alamat" id="alamat" value="{{old('alamat','')}} ">
-            </div>  
+            </div>
             <div class="mb-3 ">
                 <label class="form-label d-block">KTP</label>
                 @error('image_KTP')
